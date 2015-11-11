@@ -24,6 +24,7 @@
 		3C2E190A1BD9C9C8008D2225 /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2E19091BD9C9C8008D2225 /* libc++abi.tbd */; };
 		3C2E190C1BD9CA97008D2225 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2E190B1BD9CA97008D2225 /* MapKit.framework */; };
 		3C2E19121BD9CB6B008D2225 /* QMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C2E19111BD9CB6B008D2225 /* QMapKit.bundle */; };
+		3C996DC31BDF75F900139195 /* CustomCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C996DC21BDF75F900139195 /* CustomCalloutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		3C2E19091BD9C9C8008D2225 /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
 		3C2E190B1BD9CA97008D2225 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		3C2E19111BD9CB6B008D2225 /* QMapKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QMapKit.bundle; sourceTree = "<group>"; };
+		3C996DC21BDF75F900139195 /* CustomCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCalloutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				3C2E18C91BD9C430008D2225 /* Assets.xcassets */,
 				3C2E18CB1BD9C430008D2225 /* LaunchScreen.storyboard */,
 				3C2E18CE1BD9C430008D2225 /* Info.plist */,
+				3C996DC21BDF75F900139195 /* CustomCalloutView.swift */,
 			);
 			path = mapDemo;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C996DC31BDF75F900139195 /* CustomCalloutView.swift in Sources */,
 				3C2E18C51BD9C430008D2225 /* ViewController.swift in Sources */,
 				3C2E18C31BD9C430008D2225 /* AppDelegate.swift in Sources */,
 			);
